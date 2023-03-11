@@ -24,7 +24,7 @@ const helloWorldContract = new ethers.Contract(
   signer
 );
 
-//This is gonna print the init message "Olá, mundo!"
+//This is gonna print the init message "Hello World"
 async function main() {
   const message = await helloWorldContract.message();
   console.log(`Init message: ${message}`);
